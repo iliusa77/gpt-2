@@ -4,7 +4,8 @@ import fire
 import json
 import os
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
+from tensorflow.python.compiler import tensorrt as tf
 
 import model, sample, encoder
 
